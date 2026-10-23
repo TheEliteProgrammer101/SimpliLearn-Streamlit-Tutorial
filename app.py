@@ -21,7 +21,7 @@ check = st.checkbox("Agree to terms")
 if check:
     st.write("You agreed!")
 # c. media(video/image)
-st.image("C:/Users/User/Documents/streamlit_projects/v-finest.png")
+st.image("https://github.com/TheEliteProgrammer101/SimpliLearn-Streamlit-Tutorial/blob/main/v-finest.png")
 st.video("c:/Users/User/Downloads/How to Walk with the Holy Spirit Daily  Apostle Michael Orokpo - AnagkazoWatch Tv (360p, h264).mp4")
 st.video("c:/Users/User/Downloads/Cristiano Ronaldo shows americans what Football really is 😤 #cristianoronaldo #football #shorts - GOA7_Editz (360p, h264) (1).mp4")
 
