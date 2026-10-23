@@ -1,4 +1,7 @@
 import streamlit as st
+st.set_page_config(
+    page_title="Basic Data App"
+)
 # testing the app
 st.title("Basic Data App")
 st.write("hello world! how re you doing")
