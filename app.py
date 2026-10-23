@@ -28,9 +28,7 @@ import streamlit.components.v1 as components
 # Paste the standard <iframe> embed code provided by the website
 components.html(
     """
-    <iframe src="https://vimeo.com" 
-    width="640" height="360" frameborder="0" 
-    allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x_rDimMmx-Q?si=AqLZTImsutL-1v3e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     """,
     height=370
 )
