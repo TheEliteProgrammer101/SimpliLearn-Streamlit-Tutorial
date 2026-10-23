@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(
-    page_title="Basic Data App"
+    page_title="Basic Data App",
     page_icon="title-bar.png"
 )
 # testing the app
