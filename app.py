@@ -1,5 +1,6 @@
 import streamlit as st
 # testing the app
+st.title("Basic Data App")
 st.write("hello world! how re you doing")
 
 # streamlit basics
