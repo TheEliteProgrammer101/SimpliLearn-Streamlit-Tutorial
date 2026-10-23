@@ -22,7 +22,18 @@ if check:
     st.write("You agreed!")
 # c. media(video/image)
 st.image("v-finest.png")
-st.video("https://www.youtube.com/shorts/mFK6Chts4ko")
+# st.video("https://www.youtube.com/shorts/mFK6Chts4ko")
+import streamlit.components.v1 as components
+
+# Paste the standard <iframe> embed code provided by the website
+components.html(
+    """
+    <iframe src="https://vimeo.com" 
+    width="640" height="360" frameborder="0" 
+    allow="autoplay; fullscreen" allowfullscreen></iframe>
+    """,
+    height=370
+)
 
 
 # Data Exploration with streamlit: how to upload and display files like csv and excel sheets and dive into displaying the data in a table and applying interactive filters and we'll also cover adding summary statistics and metrics to make it insightful
