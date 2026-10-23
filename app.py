@@ -21,8 +21,8 @@ check = st.checkbox("Agree to terms")
 if check:
     st.write("You agreed!")
 # c. media(video/image)
-st.image("https://github.com/TheEliteProgrammer101/SimpliLearn-Streamlit-Tutorial/blob/main/v-finest.png")
-st.video('<iframe width="560" height="315" src="https://www.youtube.com/embed/x_rDimMmx-Q?si=s2upms-HWc9wP4dy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+st.image("v-finest.png")
+st.video("https://www.youtube.com/shorts/mFK6Chts4ko")
 
 
 # Data Exploration with streamlit: how to upload and display files like csv and excel sheets and dive into displaying the data in a table and applying interactive filters and we'll also cover adding summary statistics and metrics to make it insightful
