@@ -107,7 +107,7 @@ if uploaded_file is not None:
 # To display title
 st.title("Covid-19 Dashboard")
 
-df1 = pd.read_csv(r"C:\Users\User\Downloads\archive\covid_19_india.csv")
+df1 = pd.read_csv("covid_19_india.csv")
 
 # fig = px.line(df1, x="Date", y="Confirmed",title= "Covid-19 Cases Over time")
 fig = px.bar(df1, x="Date", y="Confirmed", title="Covid-19 Cases Over time")
